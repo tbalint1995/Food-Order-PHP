@@ -1,0 +1,165 @@
+
+html {
+    position: relative;
+    height: 100%;
+}
+/* Nabar */
+.nav_bg{
+    background-color: rgba(221, 255, 0, 0.604)
+}
+
+.navbar{
+    box-shadow: none!important;
+}
+
+
+
+
+.f-logo{
+    font-size: 2.1rem!important;
+}
+
+.f-b{
+    transform: skewX(-13deg);
+    -o-transform: skewX(-13deg);
+    -moz-transform: skewX(-13deg);
+    -webkit-transform: skewX(-13deg);
+}
+
+.f-b:hover{
+background-color: #c8ff00
+}
+
+/* hambureger */
+.navbar-toggler{
+    background-color: #f30808!important;
+    position: absolute;
+    right: 35px;
+    top:10px
+    
+}
+
+@media (max-width: 475px){
+    .navbar-nav{
+        margin-top: 55px!important;
+    }
+}
+
+
+@media (max-width: 685px){
+    .navbar-toggler{
+        right: 5px!important;
+    }
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 0, 0, 0.55%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e")!important;
+}
+
+
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    flex-basis: 0!important;
+}}
+
+.navbtn{
+    background-color: transparent!important;
+    box-shadow: none!important;
+}
+.navbtn:hover{
+    background-color: #d66367!important;
+}
+
+
+/*Home center content*/
+#index-banner{
+    background-color: rgba(0,0,0,0.75);
+}
+
+/* button */
+.myb{
+    background-color: #ff9800!important;
+    border-color: #ff9800!important;
+    box-shadow: none!important;
+    border-radius: 0.1em!important;
+}
+
+.mybshop{
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
+.text-orange{
+   color:#ff9800;
+}
+
+/*Card color */
+
+.card{
+    background-color:rgba(0, 0, 0, 0.548)!important;
+}
+
+.card-img-top{
+    height: 200px;
+    background-position: center;
+    object-fit: cover;
+  }
+
+/* footer */
+
+
+/* login */
+
+.mobile{
+    width: 50%!important;
+    margin-top: 100px!important;
+    margin-bottom: 200px!important;
+}
+
+@media (max-width: 809px){
+    .mobile{
+        width: 60%!important;
+    }
+}
+
+@media (max-width: 410px){
+    .mobile{
+        width: 70%!important;
+    }
+}
+
+
+/* footer */
+
+
+footer{
+    background-color: #ff9800;
+    position: relative; 
+    bottom: 0;
+    height: 35px;
+  }
+  .orange{
+      background-color: #ff9800;
+  }
+
+  .footer-copyright{
+    background-color:rgb(239 144 4);
+  }
+
+.f-text a{
+    text-decoration: none;
+    color: #0d4d1f;
+}
+.f-text a:hover{
+    color: rgb(240, 12, 12);
+}
+
+.text-danger:hover {
+    background: #ff96ad;
+    box-shadow: 0 0 5px #ff96ad;
+}
+label.form-label {
+    margin-bottom: 1rem
+rem
+;
+    color: rgba(255, 172, 19, 0.967);
+}
